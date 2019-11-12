@@ -1,12 +1,13 @@
 package creational.builder;
 
 public class Meal {
+
     private final String breakfast;
     private final String brunch;
     private final String lunch;
     private final String dinner;
 
-    public Meal(Builder builder) {
+    private Meal(Builder builder) {
         this.breakfast = builder.breakfast;
         this.brunch = builder.brunch;
         this.lunch = builder.lunch;
