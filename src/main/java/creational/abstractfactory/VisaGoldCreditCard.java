@@ -1,4 +1,4 @@
-package creational.abstractFactory;
+package creational.abstractfactory;
 
 public class VisaGoldCreditCard extends CreditCard {
 }
