@@ -2,7 +2,7 @@ package behavioral.chainofresponsibility;
 
 public class Request {
 
-    RequestType requestType;
+    private RequestType requestType;
     private double amount;
 
     public Request(RequestType requestType, double amount){
